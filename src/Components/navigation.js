@@ -1,10 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 
 function Navigation() {
     return (
       <div className="App">
-        <h1>Navigation</h1>
+        <ul id="navbar">
+            <li className="main-link">About Us</li>
+            <li className="main-link">2022-23 Sechedule</li>
+            <li className="main-link">Chamber Strings</li>
+            <li className="main-link">Media</li>
+            <li className="main-link">Support</li>
+        </ul>
       </div>
     );
   }
