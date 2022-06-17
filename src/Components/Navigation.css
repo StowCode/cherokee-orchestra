@@ -1,0 +1,29 @@
+.Navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85%;
+    height: 85px;
+    margin: auto;
+    border-bottom: 1px solid rgba(1,1,1,0.1);
+}
+
+#nav_icon {
+    height: 60px;
+    background-color:transparent;
+}
+
+#navbar_links {
+    list-style: none;
+    display: flex;
+    background-color: transparent;
+}
+
+#navbar_links li {
+    background-color: transparent;
+    margin-right: 5vw;
+}
+
+
+
+
